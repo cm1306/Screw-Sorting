@@ -9,9 +9,9 @@ As part of my self-directed learning in machine vision (in preparation for integ
 **Note:** I am currently learning the fundamentals of computer vision. The core Python inference script used in this repository was generated with the assistance of DeepSeek AI. My primary focus for this project was understanding the *machine vision pipeline*: dataset creation, annotation, model training, and performance evaluation.
 
 **Detection Output**
-These images show the YOLOv8 model successfully identifying screws (the small dataset size currently limits precision).
-![WhatsApp Image 2026-03-24 at 23 44 29](https://github.com/user-attachments/assets/b8deda53-ded0-4dd8-87d7-c90e37893811)
-![WhatsApp Image 2026-03-24 at 23 44 29 (1)](https://github.com/user-attachments/assets/bffda0bf-f099-4b67-9f8c-8d32e4834f84)
+This image shows the YOLOv8 model successfully identifying screws (the small dataset size currently limits precision).
+<img width="1038" height="692" alt="Screenshot 2026-03-24 231649" src="https://github.com/user-attachments/assets/dcf1f39a-e2db-4821-87c5-2622045c26ad" />
+
 
 ## 🎥 Demonstration
 *[(https://youtube.com/shorts/NuwBVZz38C4?feature=share)]*
