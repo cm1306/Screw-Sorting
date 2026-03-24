@@ -9,16 +9,18 @@ As part of my self-directed learning in machine vision (in preparation for integ
 **Note:** I am currently learning the fundamentals of computer vision. The core Python inference script used in this repository was generated with the assistance of DeepSeek AI. My primary focus for this project was understanding the *machine vision pipeline*: dataset creation, annotation, model training, and performance evaluation.
 
 **Detection Output**
-This image shows the YOLOv8 model successfully identifying screws (precision is currently limited by the small dataset size).
-![Screw Detection Output](images/detection_result.jpg)
+These images show the YOLOv8 model successfully identifying screws (the small dataset size currently limits precision).
+![WhatsApp Image 2026-03-24 at 23 44 29](https://github.com/user-attachments/assets/b8deda53-ded0-4dd8-87d7-c90e37893811)
+![WhatsApp Image 2026-03-24 at 23 44 29 (1)](https://github.com/user-attachments/assets/bffda0bf-f099-4b67-9f8c-8d32e4834f84)
+
+## 🎥 Demonstration
+*[(https://youtube.com/shorts/NuwBVZz38C4?feature=share)]*
+
 
 ## 📊 Dataset & Training Details
 * **Model:** YOLOv8 (Ultralytics)
 * **Dataset Size:** 30 training images, 3 validation images, and 2 test images.
 * **Performance:** ~0.73 mAP (Mean Average Precision).
-
-## 🎥 Demonstration
-*[(https://youtube.com/shorts/NuwBVZz38C4?feature=share)]*
 
 ## 🧠 Evaluation & Lessons Learned
 The current model successfully detects screws, but the precision and recall are relatively low. Through this project, I learned firsthand why data quality is the most critical part of machine vision. 
