@@ -6,7 +6,7 @@
 ## 📌 Project Overview
 As part of my self-directed learning in machine vision (in preparation for integrating with a robotic arm), I trained a basic object detection model to identify screws. 
 
-**Transparency Note:** I am currently learning the fundamentals of computer vision. The core Python inference script used in this repository was generated with the assistance of DeepSeek AI. My primary focus for this project was understanding the *machine vision pipeline*: dataset creation, annotation, model training, and performance evaluation.
+**Note:** I am currently learning the fundamentals of computer vision. The core Python inference script used in this repository was generated with the assistance of DeepSeek AI. My primary focus for this project was understanding the *machine vision pipeline*: dataset creation, annotation, model training, and performance evaluation.
 
 ## 📊 Dataset & Training Details
 * **Model:** YOLOv8 (Ultralytics)
@@ -14,10 +14,10 @@ As part of my self-directed learning in machine vision (in preparation for integ
 * **Performance:** ~0.73 mAP (Mean Average Precision).
 
 ## 🎥 Demonstration
-*[[Insert your video link or GIF here - e.g., "See the `testing_video.mp4` file in the repo for a live demonstration of the bounding boxes."](https://youtube.com/shorts/NuwBVZz38C4?feature=share)]*
+*[(https://youtube.com/shorts/NuwBVZz38C4?feature=share)]*
 
 ## 🧠 Evaluation & Lessons Learned
-The current model successfully detects screws, but the precision and recall is relatively low. Through this project, I learned firsthand why data quality is the most critical part of machine vision. 
+The current model successfully detects screws, but the precision and recall are relatively low. Through this project, I learned firsthand why data quality is the most critical part of machine vision. 
 
 **Reasons for low precision (0.73 mAP):**
 1.  **Extremely Small Dataset:** 35 images are insufficient for robust deep learning.
